@@ -1,0 +1,26 @@
+{
+  "name": "react-native-emulator-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wusuopu/react-native-emulator-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wusuopu/react-native-emulator-check/issues"
+  },
+  "homepage": "https://github.com/wusuopu/react-native-emulator-check#readme",
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNEmulatorCheckPackage()"
+    },
+    "ios": {
+      "project": "ios/RNEmulatorCheck.xcodeproj"
+    }
+  }
+}
