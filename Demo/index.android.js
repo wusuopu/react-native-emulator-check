@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import RNEmulatorCheck from 'react-native-emulator-check'
 
 class Demo extends Component {
   render() {
@@ -25,6 +26,9 @@ class Demo extends Component {
         <Text style={styles.instructions}>
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
+        </Text>
+        <Text style={styles.instructions}>
+          is emulator: {RNEmulatorCheck.isEmulator().toString()}
         </Text>
       </View>
     );
