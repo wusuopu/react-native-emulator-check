@@ -1,6 +1,5 @@
 rootProject.name = 'Demo'
 
 include ':app'
-
 include ':react-native-emulator-check'
 project(':react-native-emulator-check').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-emulator-check/android')
