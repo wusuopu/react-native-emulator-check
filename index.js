@@ -4,6 +4,6 @@ const RNEmulatorCheck = NativeModules.RNEmulatorCheck
 
 export default {
   isEmulator() {
-    return RNEmulatorCheck.isEmulator
+    return RNEmulatorCheck && RNEmulatorCheck.isEmulator
   }
 }
