@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
                   RNEmulatorCheck
                    DESC
   s.homepage     = "https://github.com/wusuopu/react-native-emulator-check"
+  s.license      = "MIT"
   s.author       = { "author" => "wusuopu" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wusuopu/react-native-emulator-check.git", :tag => "#{s.version}" }
