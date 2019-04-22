@@ -1,6 +1,6 @@
 {
   "name": "react-native-emulator-check",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Check current ReactNative app whether running on a emulator device.",
   "main": "index.js",
   "scripts": {
